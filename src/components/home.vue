@@ -1,10 +1,10 @@
 <template>
-    <div>
+    <div class="home">
         <h1>我是首页</h1>
-        <!-- <router-link :to="{path :'/login',query:{
+        <router-link :to="{path :'/login',query:{
             userinfo:'name is shanmu'
         }}">跳转到登录
-        </router-link> -->
+        </router-link>
     </div>
 </template>
 
@@ -15,7 +15,6 @@ export default {
 </script>
 
 <style>
-
 </style>
 
 
